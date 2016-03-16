@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Helvetica,Tahoma,Arial,STXihei," 华文细黑 ","Microsoft YaHei"," 微软雅黑 ",sans-serif;	
+	font-size: 16px;
+	min-width: 560px;
+	text-align: center;
+}
+.main{
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 20px;
+	overflow: auto;
+  	zoom: 1;
+}
+nav,section,aside{
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 20px;
+}
+nav{
+	width: 200px;
+	font-size: 18px;
+	float: left;
+	overflow: auto;
+  	zoom: 1;
+}
+.main nav img{
+	width: 80px;
+	float: left;
+}
+nav span{
+	vertical-align: top;
+}
+section{
+    margin: 0 180px 0 260px;
+}
+section p{
+	margin-top: 10px;
+}
+aside{
+	width: 120px;
+	float: right;
+}
+aside img{
+	width: 80px;
+	margin-top: 10px;
+}
