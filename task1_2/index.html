@@ -102,12 +102,14 @@
 						<li>Design</li>
 					</ol>
 					<span>See the future 成员表</span>
-					<table>
+					<table cellspacing="0">
 						<thead>
-							<th>姓名</th>
-							<th>年龄</th>
-							<th>爱好</th>
-							<th>操作</th>
+							<tr>
+								<th>姓名</th>
+								<th>年龄</th>
+								<th>爱好</th>
+								<th>操作</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -140,7 +142,7 @@
 								<td>视频</td>
 								<td><a href="#">审核</a></td>
 							</tr>
-							<tr>
+							<tr class="tr-b">
 								<td>总计</td>
 								<td colspan="3">共五人</td>
 							</tr>
@@ -153,50 +155,48 @@
 					<form method="post" action="#">
 						<div class="rig">
 							<p>
-							<span class="tit">请输入邮箱地址</span>
-							<input type="text" name="email" value="请输入您的邮箱地址" />
-							<span class="tip">邮箱地址请按要求格式填写</span>
-						</p>
-						<p>
-							<span class="tit">请输入密码</span>
-							<input type="password" name="password" value="123456" />
-						</p>
-						<p>
-							<span class="tit">请再次输入密码</span>
-							<input type="password" name="repassword" value="123456" />
-							<span class="tip">密码为6-16位英文或数字组成</span>
-						</p>
-						<p>
-							<span class="tit">性别</span>
-							<input name="sex" checked="checked" type="radio" value="male" />
-							男
-							<input name="sex" type="radio" value="famale" />
-							女
-						</p>
-						<p>
-							<span class="tit">城市</span>
-							<select>
-								<option>北京</option>
-								<option>上海</option>
-								<option>深圳</option>
-								<option>合肥</option>
-							</select>
-						</p>
-						<p>
-							<span class="tit">特长</span>
-							<input type="checkbox" name="hobby" value="0" />
-							<span>HTML&CSS</span>
-							<input name="hobby" type="checkbox" value="1" />
-							<span>JavaScript</span>
-							<input name="hobby" type="checkbox" value="2" />
-							<span>Design</span>
-						</p>
-						<p>
-							<span class="tit">个人描述</span>
-							<textarea name="descript">请输入您的个人描述</textarea>
-						</p>
+								<span class="tit">请输入邮箱地址</span>
+								<input type="text" name="email" value="请输入您的邮箱地址" />
+								<span class="tip">邮箱地址请按要求格式填写</span>
+							</p>
+							<p>
+								<span class="tit">请输入密码</span>
+								<input type="password" name="password" value="123456" />
+							</p>
+							<p>
+								<span class="tit">请再次输入密码</span>
+								<input type="password" name="repassword" value="123456" />
+								<span class="tip">密码为6-16位英文或数字组成</span>
+							</p>
+							<p>
+								<span class="tit">性别</span>
+								<input name="sex" type="radio" value="male" /> 男
+								<input name="sex" type="radio" value="famale" /> 女
+							</p>
+							<p>
+								<span class="tit">城市</span>
+								<select>
+									<option>北京</option>
+									<option>上海</option>
+									<option>深圳</option>
+									<option>合肥</option>
+								</select>
+							</p>
+							<p>
+								<span class="tit">特长</span>
+								<input type="checkbox" name="hobby" value="0" />
+								<span>HTML&CSS</span>
+								<input name="hobby" type="checkbox" value="1" />
+								<span>JavaScript</span>
+								<input name="hobby" type="checkbox" value="2" />
+								<span>Design</span>
+							</p>
+							<p>
+								<span class="tit">个人描述</span>
+								<textarea name="descript">请输入您的个人描述</textarea>
+							</p>
 						</div>
-						
+
 						<input type="submit" value="确认提交" class="submit" />
 					</form>
 				</div>
