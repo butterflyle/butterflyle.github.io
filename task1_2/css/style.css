@@ -93,7 +93,7 @@ p{
 .first table th,td{
 	height: 30px;
 	border: 1px solid #ccc;
-	border-width:1px 1px 1px 0px;
+	border-width:0px 1px 1px 1px;
 	padding-left: 10px;
 }
 #register h1{
