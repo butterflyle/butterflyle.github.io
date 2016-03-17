@@ -30,8 +30,6 @@ nav{
 	-o-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-wekit-box-sizing:border-box;
-	overflow: auto;
-  	zoom: 1;
 }
 .main nav img{
 	width: 80px;
