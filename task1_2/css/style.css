@@ -90,10 +90,12 @@ p{
 	background-color: #111;
 	color: #FFFFFF;
 }
+.first table .tr-b{
+	background-color: #5A5A5A;
+}
 .first table th,td{
 	height: 30px;
 	border: 1px solid #ccc;
-	border-width:0px 1px 1px 1px;
 	padding-left: 10px;
 }
 #register h1{
