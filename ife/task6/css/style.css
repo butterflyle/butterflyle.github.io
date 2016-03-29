@@ -1,0 +1,376 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	background-color: #5A5A5A;
+}
+
+.wrap {
+	width: 980px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	/*左右居中*/
+}
+
+
+/*头部*/
+
+header {
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+	text-align: left;
+	vertical-align: bottom;
+	margin: 0 auto;
+}
+
+header span {
+	font-family: "黑体";
+	line-height: 100px;
+}
+
+.logo {
+	display: inline-block;
+	width: 110px;
+	height: 61px;
+	background-color: cornflowerblue;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.date {
+	float: right;
+	color: #d45d5c;
+}
+
+
+/*头部结束*/
+
+
+/*内容部分*/
+
+section {
+	margin-top: 20px;
+	width: 892px;
+	height: auto;
+	font-family: "微软雅黑";
+	margin: 0 auto;
+	overflow: auto;
+	zoom: 1;
+}
+
+
+/*第一部分左边*/
+
+.banner {
+	position: relative;
+	width: 641px;
+	height: 301px;
+	background-image: url(../img/host.jpg);
+}
+
+.em-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	width: 181px;
+	height: 301px;
+	background: rgba(198, 251, 255, 0.5);
+}
+
+.em-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: inline-block;
+	width: 181px;
+	height: 301px;
+	background: rgba(198, 251, 255, 0.5);
+}
+
+
+/*第一部分右边*/
+
+aside {
+	float: right;
+	width: 203px;
+	height: 301px;
+	border-top: 2px solid #cc8091;
+	color: #000000;
+	text-align: left;
+}
+
+aside .tit {
+	font: 24px "Microsoft Yahei";
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+aside .tit:first-letter {
+	font-size: 30px;
+}
+
+.intro {
+	font-family: "楷体";
+	color: #676767;
+}
+
+p i {
+	font-size: 90px;
+	color: #75b86b;
+}
+
+.big {
+	float: left;
+	font-size: 50px;
+	color: #CC8091;
+	line-height: 50px;
+}
+
+.normal {
+	font-size: 21px;
+	vertical-align: bottom;
+	color: #cc8000;
+	margin-left: 10px;
+}
+
+.normal span {
+	display: block;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+
+
+/*演员介绍部分*/
+
+.cast {
+	margin-top: 20px;
+	width: 892px;
+	height: 301px;
+}
+
+.cast div {
+	width: 207px;
+	height: 100%;
+	float: left;
+	padding: 8px;
+}
+
+.cast a {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.song a {
+	color: #418c59;
+}
+
+.qiao a {
+	color: #d2994f;
+}
+
+.jin a {
+	color: #cc7680;
+}
+.jiu a{
+	color: #551A6D;
+}
+.cast p {
+	margin-top: 10px;
+}
+
+/*主要内容部分*/
+
+#container {
+	margin-top: 20px;
+	overflow: auto;
+	zoom: 1;
+}
+
+.right-con {
+	float: right;
+	width: 459px;
+	position: relative;
+}
+
+.pic {
+	width: 100%;
+	height: 275px;
+	position: relative;
+}
+
+.pic img {
+	width: 459px;
+	height: 275px;
+}
+
+.pic .pic-tit {
+	width: 459px;
+	height: 61px;
+	line-height: 61px;
+	background: rgba(90, 90, 90, 0.3);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: table-cell;
+}
+
+.pic-tit h2 {
+	height: 44px;
+	margin-left: 30px;
+	padding: 0 10px;
+	font-size: 26px;
+	color: #FFFFFF;
+	border-left: 3px solid #72b16a;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 44px;
+}
+
+.pic-tit p {
+	display: inline-block;
+	color: #72b16a;
+	letter-spacing: 140%;
+}
+
+.music {
+	margin-top: 10px;
+	width: 439px;
+	height: 318px;
+	background-color: #EEEEEE;
+	padding: 10px;
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 8px solid cornflowerblue;
+	vertical-align: middle;
+	/*以下属性可以是IE5兼容*/
+	font-size: 0px;
+	line-height: 0px;
+}
+.music ul{
+	list-style-type : none;
+	line-height: 30px;
+	font-size: 12px;
+	color: #5a5b5b;
+	font-style: italic;
+	
+}
+ul span{
+	font-size: 16px;
+	margin-left: 10px;
+}
+.lb{
+	padding-top: 37px;
+	width: 260px;
+	height: 123px;
+	background-color: cornflowerblue;
+	position: absolute;
+	left: 0;
+	bottom: 0;	
+	color: #FFFFFF;
+}
+.lb .m{
+	font-size: 110px;
+	height: 86px;
+	border-right: 2px solid #FFFFFF;
+	line-height: 86px;
+	display: inline-block;
+}
+.lb .lb-big{
+	display: inline-block;
+	font-size: 21px;
+	font-style: italic;
+}
+.lb-big span{
+	font-size: 12px;
+	display: inline-block;
+}
+.rb{
+	width: 180px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 14px;
+	font-style: italic;
+	color: #5A5B5B;
+	font-family: "黑体";
+}
+.rb .max1 ,.max2{
+	font-size: 72px;
+	color: cornflowerblue;
+}
+.rb .max1{
+	position: absolute;
+	right: 170px;
+	bottom: 80px;
+}
+.rb .max2{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.rb p{
+	position: absolute;
+	right: 0;
+	bottom: 70px;
+	text-indent: 2em;
+}
+/*主要内容左边部分*/
+.left-con{
+	width: 415px;
+	text-align: left;
+}
+.left-con h1{
+	font-size: 40px;
+	color: #CCCCCC;
+}
+.left-con .lheader{
+	padding-bottom: 10px;
+	border-bottom: 2px solid cornflowerblue;
+}
+.left-con h1 span{
+	font-size: 70px;
+	color: rosybrown;
+	font-style: italic;
+}
+.left-con span{
+	font-size: 33px;
+	color: #CC8000;
+}
+.main{
+	margin-top: 20px;
+	color: #767777;
+	font-size: 13px;
+}
+.main p span{
+	font-size: 70px;
+	color: cornflowerblue;
+	float: left;
+}
+.main p img{
+	width: 180px;
+	float: right;
+}
+footer{
+	width: 892px;
+	height: 50px;
+	margin: 20px auto;
+	padding-top: 10px;
+	color: #938e8c;
+	border-top: 1px solid #938e8c;
+	text-align: right;
+	background-color: #FFFFFF;
+}
