@@ -90,10 +90,10 @@ nav ul li a {
 }
 
 .tab {
-	width: 100%;
 	height: auto;
 	background-color: #FFFFFF;
 	text-align: center;
+	padding: 10px;
 }
 
 .tab table {
