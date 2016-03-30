@@ -187,10 +187,11 @@ article{
 	border-bottom: 1px solid #EEEEEE;
 }
 .photo{
-	text-align: center;
+	padding: 10px;
 }
 .photo img{
-	width: 30%;
+	margin: 5px 0;
+	width: 32%;
 }
 footer{
 	width: 100%;
