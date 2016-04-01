@@ -62,8 +62,8 @@
 						if(i%2!=0){
 							data[j][0]=(childrens[i].innerHTML).substr(0,2);
 							data[j][1]=(childrens[i].innerHTML).substr(10,2);
-							alert(data[j][0]);
-							alert(data[j][1]);
+							/*alert(data[j][0]);
+							alert(data[j][1]);*/
 							j++;
 						}
 						
@@ -101,7 +101,6 @@
 			 * 格式见ul中的注释的部分
 			 */
 			function render(data) {
-				alert(data.length);
 				var myHtml="";
 				for(var i=0;i<data.length;i++){
 					myHtml+='<li>第'+parseInt(i+1)+'名：'+data[i][0]+'空气质量：'+data[i][1]+'</li>';
@@ -111,7 +110,6 @@
 
 			function btnHandle() {
 				var aqiData = getData();
-				alert(aqiData.length);
 				aqiData = sortAqiData(aqiData);
 				render(aqiData);
 			}
