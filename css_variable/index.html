@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用 CSS 变量实现主题定制</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="theme">
+        <button value="dark">dark</button>
+        <button value="calm">calm</button>
+        <button value="light">light</button>
+    </div>
+    <article>
+        <h2>使用 CSS 变量实现主题定制</h2>
+        <p>
+            CSS 变量的美在于其本质是响应式的。一旦 CSS 变量更新了，任意带有 CSS 变量的属性的值也都会随之更新。
+
+        </p>
+        <p>因此，我们需要给点击事件监听器写一些 JavaScript 代码。</p>
+        <p>
+            在这个简单的示例里，文本与页面的颜色和背景色都是基于 CSS 变量的。</p>
+        <p>
+
+            当你点击页面上方的按钮时，JavaScript 会将 CSS 变量中的颜色切换成别的颜色，页面的背景色也就随之更新。 这就是全部了。
+
+        </p>
+        <p>
+            行内设置变量。 <br/> 即使是在行内设置，CSS 变量也会生效。在 JavaScript 中，我们控制了文档的根节点，然后就可以在行内给 CSS 变量设置新的值了。
+        </p>
+    </article>
+</body>
+<style src="js/main.js"></style>
+</html>
